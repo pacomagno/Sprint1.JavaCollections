@@ -1,0 +1,7 @@
+ale: 0/0
+jose: 0/0
+Alejandro: 10 points
+jose: 2 points
+Lexa: 3 points
+Pedro: 2 points
+maria: 3 points
