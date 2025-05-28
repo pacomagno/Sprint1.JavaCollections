@@ -12,9 +12,14 @@ public class Main {
                 new Restaurant("Sheraton", 9)));
 
         List<Restaurant> sortedList = new ArrayList<>(restaurantSet);
-        sortedList.sort((r1, r2) -> Integer.compare(r2.getScore(), r1.getScore()));
+        sortedList.sort(new Comparator<Restaurant>() {
+            @Override
+            public int compare(Restaurant r1, Restaurant r2) {
+                return Integer.compare(r2.getScore(), r1.getScore());
+            }
+        });
 
 
-        System.out.println("Restaurants sorted in ascending order: " + sortedList);
+        System.out.println("Restaurants sorted in descending order: " + sortedList);
     }
 }

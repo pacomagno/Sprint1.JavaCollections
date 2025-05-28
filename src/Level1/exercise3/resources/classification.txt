@@ -5,3 +5,4 @@ jose: 2 points
 Lexa: 3 points
 Pedro: 2 points
 maria: 3 points
+ale: 3 points
