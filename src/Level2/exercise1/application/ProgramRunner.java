@@ -8,10 +8,10 @@ public class ProgramRunner {
     public static void run() {
         HashSet<Restaurant> restaurants = new HashSet<>();
 
-        restaurants.add(new Restaurant("H10", 5));
-        restaurants.add(new Restaurant("Hilton", 5));
-        restaurants.add(new Restaurant("Hilton", 5));
-        restaurants.add(new Restaurant("Sheraton", 4));
+        restaurants.add(new Restaurant("Honest Greens", 5));
+        restaurants.add(new Restaurant("Himalayan Steaks", 5));
+        restaurants.add(new Restaurant("Himalayan Steaks", 5));
+        restaurants.add(new Restaurant("Shurupitos Wild", 4));
 
         System.out.println(restaurants);
     }

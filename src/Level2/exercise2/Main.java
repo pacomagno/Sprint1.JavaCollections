@@ -7,9 +7,9 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         HashSet<Restaurant> restaurantSet = new HashSet<>(Arrays.asList(
-                new Restaurant("H10", 5),
-                new Restaurant("Hilton", 8),
-                new Restaurant("Sheraton", 9)));
+                new Restaurant("Honest Greens", 5),
+                new Restaurant("Himalayan Steaks", 8),
+                new Restaurant("Shurupitos Wild", 9)));
 
         List<Restaurant> sortedList = new ArrayList<>(restaurantSet);
         sortedList.sort(new Comparator<Restaurant>() {
